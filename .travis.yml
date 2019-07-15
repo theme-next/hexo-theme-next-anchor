@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '12'
+deploy:
+  provider: npm
+  email: mkb@live.cn
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    repo: 1v9/hexo-theme-next-anchor
