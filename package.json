@@ -1,0 +1,16 @@
+{
+  "name": "hexo-theme-next-anchor",
+  "version": "1.0.2",
+  "description": "A NexT plugin that adds an anchor to every heading.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theme-next/hexo-theme-next-anchor.git"
+  },
+  "author": "theme-next",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theme-next/hexo-theme-next-anchor/issues"
+  },
+  "homepage": "https://github.com/theme-next/hexo-theme-next-anchor#readme"
+}

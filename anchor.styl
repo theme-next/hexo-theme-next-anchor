@@ -1,0 +1,29 @@
+icon_enable = hexo-config('anchor.icon.enable');
+anchor_position = hexo-config('anchor.position');
+margin = unquote(hexo-config('anchor.margin'));
+
+.heading-anchor {
+  if anchor_position == 'right' {
+    display: none;
+    margin-left: margin;
+  } else if anchor_position == 'left' {
+    margin-right: margin;
+  }
+  &:before {
+    if icon_enable {
+      font-family: hexo-config('anchor.icon.font');
+      content: hexo-config('anchor.icon.content');
+    } else {
+      content: hexo-config('anchor.text');
+    }
+  }
+  .heading-control:hover & {
+    display: inline-block;
+  }
+}
+
+a.heading-anchor {
+  color: unquote(hexo-config('anchor.color'));
+  line-height: normal;
+  border-bottom: none;
+}
