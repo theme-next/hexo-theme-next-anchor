@@ -6,6 +6,14 @@
 
 A NexT plugin that adds an anchor to every heading.
 
+## Installion
+
+Go to your Hexo root directory, then run this command:
+
+```bash
+npm i hexo-theme-next-anchor
+```
+
 ## Usage
 
 > You need to write following options into your NexT configuration file.
