@@ -11,15 +11,14 @@ hexo.extend.filter.register('after_post_render', data => {
   if (!theme.anchor.enable) return;
 
   const $ = cheerio.load(data.content, { decodeEntities: false });
-
-  let headings = $('h1, h2, h3, h4, h5, h6');
-  if (!headings.length) return data;
+  const headings = $('h1, h2, h3, h4, h5, h6');
+  if (!headings.length) return;
 
   const position = theme.anchor.position;
 
-  headings.each((x, y) => {
-    let id = $(y).attr('id');
-    let p = $(y).addClass('heading-control');
+  Array.from(headings).forEach(x => {
+    let id = $(x).attr('id');
+    let p = $(x).addClass('heading-control');
     if (position === 'left') {
       p.prepend('<a class="heading-anchor" href="#' + id + '" aria-hidden="true"></a>');
     } else if (position === 'right') {

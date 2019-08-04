@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-next-anchor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A NexT plugin that adds an anchor to every heading.",
   "main": "index.js",
   "repository": {
