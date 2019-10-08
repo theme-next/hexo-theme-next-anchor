@@ -1,12 +1,17 @@
 # hexo-theme-next-anchor
 
-[![Npm Version](https://img.shields.io/npm/v/hexo-theme-next-anchor.svg?style=flat-square)](https://npmjs.org/package/hexo-theme-next-anchor)
-[![Build status](https://img.shields.io/travis/com/theme-next/hexo-theme-next-anchor.svg?style=flat-square)](https://travis-ci.com/theme-next/hexo-theme-next-anchor)
-[![License](https://img.shields.io/github/license/theme-next/hexo-theme-next-anchor.svg?style=flat-square)](https://github.com/theme-next/hexo-theme-next-anchor/blob/master/LICENSE)
+[![travis-image]][travis-url]
+[![hexo-image]][hexo-url]
+[![npm-image]][npm-url]
+[![lic-image]](LICENSE)
 
 A NexT plugin that adds an anchor to every heading.
 
-## Installion
+## Installation
+
+![size-image]
+[![dm-image]][npm-url]
+[![dt-image]][npm-url]
 
 Go to your Hexo root directory, then run this command:
 
@@ -38,3 +43,16 @@ anchor:
 ## Thanks
 
 This plugin was modified from [Hexo Site](https://github.com/hexojs/site/blob/e7b12f2f3da2f8f43618e6994668a77bb1ba14d2/scripts/helpers.js#L104-L119).
+
+[travis-image]: https://img.shields.io/travis/com/theme-next/hexo-theme-next-anchor?style=flat-square
+[hexo-image]: https://img.shields.io/badge/hexo-%3E%3D%203.0-blue?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/hexo-theme-next-anchor?style=flat-square
+[lic-image]: https://img.shields.io/npm/l/hexo-theme-next-anchor?style=flat-square
+
+[size-image]: https://img.shields.io/github/languages/code-size/theme-next/hexo-theme-next-anchor?style=flat-square
+[dm-image]: https://img.shields.io/npm/dm/hexo-theme-next-anchor?style=flat-square
+[dt-image]: https://img.shields.io/npm/dt/hexo-theme-next-anchor?style=flat-square
+
+[travis-url]: https://travis-ci.org/theme-next/hexo-theme-next-anchor?branch=master
+[hexo-url]: https://hexo.io
+[npm-url]: https://www.npmjs.com/package/hexo-theme-next-anchor
